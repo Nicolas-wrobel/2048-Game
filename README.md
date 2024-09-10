@@ -55,15 +55,18 @@ L'état est géré via le package **Provider** pour permettre la réactivité de
 
 ## Structure du projet
 
+## Structure du projet
+```bash
 ├── lib
-│   ├── main.dart               # Point d'entrée de l'application
+│   ├── main.dart          # Point d'entrée de l'application
 │   ├── models
-│   │   └── game_board.dart     # Modèle de données du jeu 2048
+│   │   └── game_board.dart # Modèle de données du jeu 2048
 │   ├── widgets
-│   │   ├── grid.dart           # Grille du jeu
-│   │   └── tile.dart           # Tuiles animées du jeu
+│   │   ├── grid.dart       # Grille du jeu
+│   │   └── tile.dart       # Tuiles animées du jeu
 │   ├── screens
-│   │   ├── game_screen.dart    # Écran principal du jeu
-│   │   ├── home_screen.dart    # Écran d'accueil
-│   │   └── rules_screen.dart   # Écran des règles du jeu
-├── pubspec.yaml                # Fichier de configuration pour Flutter
+│   │   ├── game_screen.dart # Écran principal du jeu
+│   │   ├── home_screen.dart # Écran d'accueil
+│   │   └── rules_screen.dart # Écran des règles du jeu
+├── pubspec.yaml            # Fichier de configuration pour Flutter
+```
