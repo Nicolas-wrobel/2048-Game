@@ -13,6 +13,21 @@ Ce projet est une implémentation du célèbre jeu 2048 en Flutter, conçu pour 
 
 ## Structure du projet
 
+```bash
+├── lib
+│   ├── main.dart          # Point d'entrée de l'application
+│   ├── models
+│   │   └── game_board.dart # Modèle de données du jeu 2048
+│   ├── widgets
+│   │   ├── grid.dart       # Grille du jeu
+│   │   └── tile.dart       # Tuiles animées du jeu
+│   ├── screens
+│   │   ├── game_screen.dart # Écran principal du jeu
+│   │   ├── home_screen.dart # Écran d'accueil
+│   │   └── rules_screen.dart # Écran des règles du jeu
+├── pubspec.yaml            # Fichier de configuration pour Flutter
+```
+
 ### 1. **Main Application Flow**
 - `main.dart`: Le fichier d'entrée principal de l'application. Il initialise l'application et configure les routes.
 
@@ -52,19 +67,3 @@ L'état est géré via le package **Provider** pour permettre la réactivité de
    ```bash
    flutter run
    ```
-
-## Structure du projet
-```bash
-├── lib
-│   ├── main.dart          # Point d'entrée de l'application
-│   ├── models
-│   │   └── game_board.dart # Modèle de données du jeu 2048
-│   ├── widgets
-│   │   ├── grid.dart       # Grille du jeu
-│   │   └── tile.dart       # Tuiles animées du jeu
-│   ├── screens
-│   │   ├── game_screen.dart # Écran principal du jeu
-│   │   ├── home_screen.dart # Écran d'accueil
-│   │   └── rules_screen.dart # Écran des règles du jeu
-├── pubspec.yaml            # Fichier de configuration pour Flutter
-```
