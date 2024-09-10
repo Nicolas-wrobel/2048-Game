@@ -54,8 +54,6 @@ L'état est géré via le package **Provider** pour permettre la réactivité de
    ```
 
 ## Structure du projet
-
-## Structure du projet
 ```bash
 ├── lib
 │   ├── main.dart          # Point d'entrée de l'application
