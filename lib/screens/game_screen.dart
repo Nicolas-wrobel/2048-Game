@@ -16,7 +16,7 @@ class _GameScreenState extends State<GameScreen> {
   bool _swipeDetected = false;
   bool _dialogShown = false; // Empêche l'affichage multiple des dialogues
   static const double swipeThreshold =
-      200; // Seuil ajusté pour des mouvements plus significatifs
+      100; // Seuil ajusté pour des mouvements plus significatifs
 
   @override
   Widget build(BuildContext context) {
