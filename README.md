@@ -56,7 +56,7 @@ L'état est géré via le package **Provider** pour permettre la réactivité de
 
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-utilisateur/2048-flutter-game.git
+   git clone https://github.com/Nicolas-wrobel/2048-Game.git
    cd 2048-flutter-game
    ```
 2. Installez les dépendances Flutter :
